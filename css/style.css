@@ -34,3 +34,8 @@ body {
 .align-center {
   align-items: center;
 }
+
+/********** LISTS **********/
+.list-style-none {
+  list-style: none;
+}
