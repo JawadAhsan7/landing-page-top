@@ -16,6 +16,12 @@ body {
     width: 100%;
 }
 
+.centered {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 /********* FLEXBOX *********/
 .flex {
     display: flex;
