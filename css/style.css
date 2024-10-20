@@ -39,3 +39,37 @@ body {
 .list-style-none {
   list-style: none;
 }
+
+/****************************  HEADER ****************************/
+.header {
+  color: #f9faf8;
+  background-color: #1f2938;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.navbar-list {
+  gap: 24px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  font-size: 18px;
+  color: #f9faf8;
+  text-decoration: none;
+  padding: 4px 2px;
+}
+
+.nav-link:focus {
+  outline: 1px solid #f9faf8;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  border-bottom: 2px solid #f9faf8;
+}
